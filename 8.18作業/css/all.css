@@ -1,0 +1,1447 @@
+.title{
+    width: 100%;
+    height: 8vh;
+    /*background-color: aqua;*/
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    font-size: 25px;
+    top: 15%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+.wordleft{
+    width: 45%;
+    height: 5vh;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+}
+.w{
+    position: absolute;
+    left: 20%;
+    bottom: 70%;
+    
+}
+.search{
+    width: 20px;
+    height:20px;
+    background-color: blue;
+    position: absolute;
+    top: calc( 50% - 10px );
+    right: 15%;
+    float: right;
+}
+.search img{
+    width: 25px;
+}
+/*.wordright{
+    position: absolute;
+    top: calc( 50% - 10px );
+
+}*/
+.car{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    float: right;
+    position: absolute;
+    top: calc( 50% - 10px );
+    right: 10%;
+}
+.car img{
+    width: 25px;
+}
+.half{
+    width: 20px;
+    height: 20px;
+    background-color: chartreuse;
+    float: right;
+    position: absolute;
+    top: calc( 50% - 10px );
+    right: 5%;
+}
+.half img{
+    width: 30px;
+}
+.intro{
+    width: 100%;
+    height: 66vh;
+    position: relative;
+    clear: both;
+}
+.introduce{
+    width: 50%;
+    height: 66vh;
+    background-color: green;
+    float: right;
+    position: absolute;
+    right: 4.8%;
+}
+.sale{
+    width: 50%;
+    height: 66vh;
+    background-color: green;
+    float: left;
+    margin-left: 5%;
+}
+.buttom{
+    width: 100%;
+    height: 30vh;
+    background-color: honeydew;
+    clear: right;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    position: relative;
+}
+.b1{
+    width: 10%;
+    height: 10vh;
+    background-color: indigo;
+    position: absolute;
+    left: 20%;
+    top: calc( 50% - 5vh );
+}
+.b2{
+    width: 13%;
+    height: 8vh;
+    background-color: lightcoral;
+    position: absolute;
+    left: calc( 50% - 6.5% );
+    top: calc( 50% - 4vh );
+}
+.b3{
+    width: 13%;
+    height: 8vh;
+    background-color: brown;
+    position: absolute;
+    right: 20%;
+    top: calc( 50% - 4vh );
+}
+.product{
+    width: 100%;
+    height: 55.3vh;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.box4{
+    width: 22%;
+    height: 55vh;
+    margin-right: 5%;
+    position: relative;
+    float: left;
+}
+.box1{
+    width: 22%;
+    height: 55vh;
+    margin-left: 5%;
+    
+    position: relative;
+    float: left;
+    
+}
+.p1{
+    width: 100%;
+    height: 20vh;
+    background-color: lightgray;
+    
+
+}
+.w1{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+}
+#w1{
+    font-size: 15px;
+    position: absolute;
+    top: 52%;
+}
+.know{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 60%;
+}
+.box2{
+    width: 22%;
+    height: 55vh;
+    position: relative;
+    float: left;
+}
+.w2{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+}
+#w2{
+    font-size: 15px;
+    position: absolute;
+    top: 52%;
+}
+.w3{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+}
+#w3{
+    font-size: 15px;
+    position: absolute;
+    top: 52%;
+}
+.six{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 60%;
+}
+.one{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 70%;
+}
+.box3{
+    width: 22%;
+    height: 55vh;
+    position: relative;
+    float: left;
+}
+.w4{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 45%;
+}
+#w4{
+    font-size: 15px;
+    position: absolute;
+    top: 52%;
+}
+
+.div{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 70%;
+}
+.div1{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 70%;
+}
+.join{
+    font-size: 18px;
+    font-weight: bolder;
+    color: cornflowerblue;
+    position: absolute;
+    top: 70%;
+}
+.picture{
+    width: 75%;
+    height: 66vh;
+    background-color: lightgrey;
+    float: right;
+    margin-right: 5%;
+}
+.buy{
+    width: 15%;
+    height: 66vh;
+    background-color: lightgrey;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+.chin{
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.eng{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.shop1{
+    color: white;
+    font-size: 18px;
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+.place{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    clear: both;
+}
+.word1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    left: 5%;
+    top: 8%;
+}
+.box5{
+    width: 22%;
+    height: 55vh;
+    margin-left: 5%;
+    position: absolute;
+    top: 15%;
+    float: left;
+}
+.box6{
+    width: 22%;
+    height: 55vh;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    float: left;
+}
+.box7{
+    width: 22%;
+    height: 55vh;
+    position: absolute;
+    top: 15%;
+    right: 27%;
+    float: left;
+}
+.box8{
+    width: 22%;
+    height: 55vh;
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    float: left;
+}
+.follow{
+    /* width: 20%;
+    height: 5vh;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    position: relative; */
+}
+.aaa{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.like{
+    /* float: left; */
+    font-size: 15px;
+    font-weight: lighter;
+}
+.f{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    /* float: left; */
+    background-color: blue;
+    background-image: url(/facebook.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.y{
+    width: 25px;
+    height: 25px;
+    /* float: left; */
+    background-color: red;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+.y img{
+    width: 35px;
+}
+.fotter{
+    padding-top: 5%;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-color: lightgrey;
+}
+.move{
+    font-size: 15px;
+    position: absolute;
+    left: 5%;
+    font-weight: inherit;
+}
+.store{
+    font-size: 15px;
+    font-weight: inherit;
+    position: absolute;
+    left: 20%;
+}
+.edu{
+    font-size: 15px;
+    font-weight: inherit;
+    position: absolute;
+    left: 36%;
+}
+.chi{
+    font-size: 15px;
+    font-weight: inherit;
+    position: absolute;
+    left: 52%;
+}
+.people{
+    font-size: 15px;
+    font-weight: inherit;
+    position: absolute;
+    left: 65%;
+}
+.company{
+    font-size: 15px;
+    font-weight: inherit;
+    position: absolute;
+    left: 80%;
+}
+
+@media (max-width: 1280px) {
+    .title{
+        width: 100%;
+        height: 10vh;
+        /*background-color: aqua;*/
+        position: relative;
+        
+    }
+    .logo{
+
+        position: absolute;
+        font-size: 22px;
+        top: 20%;
+        left: 3%;
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 45px;
+    }
+    .wordleft{
+        width: 60%;
+        height: 5vh;
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .w{
+        position: absolute;
+        left: 20%;
+        bottom: 70%;
+        
+    }
+    .search{
+        width: 20px;
+        height:20px;
+        background-color: blue;
+        position: absolute;
+        top: calc( 50% - 10px );
+        right: 15%;
+        float: right;
+    }
+    .search img{
+        width: 25px;
+    }
+    /*.wordright{
+        position: absolute;
+        top: calc( 50% - 10px );
+    
+    }*/
+    .car{
+        width: 20px;
+        height: 20px;
+        background-color: brown;
+        float: right;
+        position: absolute;
+        top: calc( 50% - 12px );
+        right: 10%;
+    }
+    .car img{
+        width: 25px;
+    }
+    .half{
+        width: 20px;
+        height: 20px;
+        background-color: chartreuse;
+        float: right;
+        position: absolute;
+        top: calc( 50% - 15px );
+        right: 5%;
+    }
+    .half img{
+        width: 35px;
+    }
+    .intro{
+        width: 100%;
+        height: 66vh;
+        position: relative;
+        clear: both;
+    }
+    .introduce{
+        width: 50%;
+        height: 66vh;
+        background-color: green;
+        float: right;
+        position: absolute;
+        right: 0%;
+    }
+    .sale{
+        width: 50%;
+        height: 66vh;
+        background-color: green;
+        float: left;
+        margin-left: 0%;
+    }
+    .buttom{
+        width: 100%;
+        height: 30vh;
+        background-color: honeydew;
+        clear: right;
+        /*display: flex;
+        justify-content: space-around;
+        align-items: center;*/
+        position: relative;
+    }
+    .b1{
+        width: 10%;
+        height: 10vh;
+        background-color: indigo;
+        position: absolute;
+        left: 20%;
+        top: calc( 50% - 5vh );
+    }
+    .b2{
+        width: 13%;
+        height: 8vh;
+        background-color: lightcoral;
+        position: absolute;
+        left: calc( 50% - 6.5% );
+        top: calc( 50% - 4vh );
+    }
+    .b3{
+        width: 13%;
+        height: 8vh;
+        background-color: brown;
+        position: absolute;
+        right: 20%;
+        top: calc( 50% - 4vh );
+    }
+    .product{
+        width: 100%;
+        height: 100vh;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .box1{
+        width: 43%;
+        height: 50vh;
+        margin-left: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+        
+    }
+    .p1{
+        width: 100%;
+        height: 25vh;
+        background-color: lightgray;
+        
+    
+    }
+    .w1{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w1{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .know{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+    }
+    .box2{
+        width: 43%;
+        height: 50vh;
+        position: relative;
+        float: right;
+        margin-right: 5%;
+    }
+    .w2{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w2{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .w3{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w3{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .six{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+        float: left;
+    }
+    .one{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        left: 50%;
+        top: 78%;
+        float: left;
+    }
+    .box3{
+        width: 43%;
+        height: 50vh;
+        margin-left:5% ;
+        position: relative;
+        float: left;
+        clear: both;
+    }
+    .box4{
+        width: 43%;
+        height: 55vh;
+        margin-left: 2%;
+        clear: both;
+        float: right;
+        position: relative;
+        
+    }
+    .w4{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 53%;
+    }
+    #w4{
+        font-size: 15px;
+        position: absolute;
+        top: 61%;
+    }
+    
+    .div{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 83%;
+    }
+    .join{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+    }
+    .picture{
+        width: 60%;
+        height: 66vh;
+        background-color: lightgrey;
+        float: right;
+        margin-right: 5%;
+    }
+    .buy{
+        width: 30%;
+        height: 66vh;
+        background-color: lightgrey;
+        float: left;
+        margin-left: 5%;
+        position: relative;
+    }
+    .chin{
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+    .eng{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+    }
+    .shop1{
+        color: white;
+        font-size: 18px;
+        width: 130px;
+        height: 35px;
+        background-color: black;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        left: 20%;
+    }
+    .place{
+        width: 100%;
+        height: 130vh;
+        position: relative;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .word1{
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .box5{
+        width: 43%;
+        height: 50vh;
+        float: left;
+        clear: both;
+        margin-left: 5%;
+        position: absolute;
+        top: 10%;
+        position: relative;
+        
+    }
+    .box6{
+        width: 40%;
+        height: 50vh;
+        float: left;
+        margin-left: 2%;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        position: relative;
+       
+        
+    }
+    .box7{
+        width: 43%;
+        height: 50vh;
+        margin-left: 5%;
+        float: left;
+        clear: both;
+        position: absolute;
+        top: 4%;
+        right: 0%;
+        position: relative;
+        
+    }
+    .box8{
+        width: 43%;
+        height: 55vh;
+        margin-left: 2%;
+        float: right;
+        position: absolute;
+        left: 0%;
+        top: 4%;
+        position: relative;
+        
+    }
+    .div1{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 74%;
+    }
+    
+    .follow{
+        /* width: 25%; 
+        height: 5vh;
+        position: absolute;
+        bottom: 1%;
+        left: 0px;
+        position: relative;*/
+    }
+    .aaa{
+        
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .like{
+        /* float: left; */
+        font-size: 15px;
+        font-weight: lighter;
+ 
+    }
+    .f{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        /* float: left; */
+        background-color: blue;
+        background-image: url(/facebook.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .y{
+        width: 25px;
+        height: 25px;
+        /* float: left; */
+        background-color: red;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+    .y img{
+        width: 35px;
+    }
+    .fotter{
+        padding: 2%;
+        padding-top: 5%;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        /*display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;*/
+        background-color: lightgrey;
+        box-sizing: border-box;
+    }
+    .move{
+        width: 33%;
+        margin-left: 1%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 5%;
+        left: 2%;
+    }
+    .store{
+        width: 10%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 5%;
+        left: 38%;
+    }
+    .edu{
+        width: 10%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 5%;
+        left: 70%;
+    }
+    .chi{
+        margin-left: 1%;
+        width: 33%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 50%;
+        left: 2%;
+    }
+    .people{
+        width: 33%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 50%;
+        left: 38%;
+    }
+    .company{
+        width: 10%;
+        font-size: 15px;
+        font-weight: inherit;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+    }
+    
+}
+@media (max-width: 800px){
+    .title{
+        width: 100%;
+        height: 6vh;
+        /*background-color: aqua;*/
+        position: relative;
+        
+        
+    }
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+
+        width: 200px;
+        /* height: 10px; */
+        position: absolute;
+        top: 5%;
+        left: calc( 50% - 50px);
+        display: flex;
+        align-items: center;
+    }
+
+    /* .logo::before{ 
+        content: '';
+        width: 30px;
+        height: 30px;
+
+        background-color: aquamarine;
+        background-image: url('/下載.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }*/
+     .logo img{ 
+        width: 25px;
+    } 
+    .wordleft{
+        
+        width: 30px;
+        height: 30px;
+        
+        position: absolute;
+        top: 18%; 
+        left: 10px; 
+        float: left;
+    }
+    .wordleft::before{
+        content: '';
+        width: 25px;
+        height: 25px;
+
+        background-color: aquamarine;
+        background-image: url('/list.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .w{
+        
+        /*position: absolute;
+        left: 20%;
+        bottom: 70%;*/
+        display: none;
+    }
+    
+    .search{
+        
+        position: absolute;
+        top: 20%;  
+        left: 60px;
+        float: left;
+    }
+    .search img{
+        width: 25px;
+    }
+    /*.wordright{
+        position: absolute;
+        top: calc( 50% - 10px );
+    
+    }*/
+    .car{
+        width: 20px;
+        height: 20px;
+        background-color: brown;
+        float: right;
+        position: absolute;
+        top: 20%;
+        right: 13%;
+    }
+    .car img{
+        width: 25px;
+    }
+    .half{
+        width: 20px;
+        height: 20px;
+        
+        float: right;
+        position: absolute;
+        top: 18%;
+        right: 5%;
+    }
+    .half img{
+        width: 30px;
+    }
+    .intro{
+        width: 100%;
+        height: 74vh;
+        position: relative;
+        clear: both;
+        /*display: flex;
+        flex-wrap: wrap;*/
+        
+    }
+    .introduce{
+        width: 100%;
+        height: 37vh;
+        background-color: green;
+        position: absolute;
+        right: 0%;
+        
+        
+    }
+    .sale{
+        width: 100%;
+        height: 37vh;
+        background-color: gray;
+        position: absolute;
+        top: 50%;
+        margin-left: 0%;
+        float: none;
+    }
+    .buttom{
+        width: 100%;
+        height: 30vh;
+        background-color: honeydew;
+        clear: right;
+        /*display: flex;
+        justify-content: space-around;
+        align-items: center;*/
+        position: relative;
+    }
+    .b1{
+        width: 150px;
+        height: 20px;
+        background-color: indigo;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+    .b2{
+        width: 150px;
+        height: 20px;
+        background-color: lightcoral;
+        position: absolute;
+        left: 5%;
+        top: 45%;
+    }
+    .b3{
+        width: 150px;
+        height: 20px;
+        background-color: brown;
+        position: absolute;
+        left: 5%;
+        top: 65%;
+    }
+    .product{
+        width: 100%;
+        height: 200vh;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .box1{
+        width: 100%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+        
+    }
+    .p1{
+        width: 100%;
+        height: 25vh;
+        background-color: lightgray;
+        
+    
+    }
+    .w1{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w1{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .know{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+    }
+    .box2{
+        width: 100%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+    }
+    .w2{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w2{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .w3{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 60%;
+    }
+    #w3{
+        font-size: 15px;
+        position: absolute;
+        top: 68%;
+    }
+    .six{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+        float: left;
+    }
+    .one{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        left: 50%;
+        top: 78%;
+        float: left;
+    }
+    .box3{
+        width: 100%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+    }
+    .box4{
+        width: 100%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+        
+    }
+    .w4{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 53%;
+    }
+    #w4{
+        font-size: 15px;
+        position: absolute;
+        top: 61%;
+    }
+    
+    .div{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 83%;
+    }
+    .join{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 78%;
+    }
+    .picture{
+        width: 100%;
+        height: 35vh;
+        background-color: gray;
+        float: right;
+        margin-right: 0%;
+        
+    }
+    .buy{
+        width: 100%;
+        height: 35vh;
+        background-color: lightgrey;
+        float: left;
+        
+        margin-left: 0%;
+        position: relative;
+    }
+    .chin{
+        font-size: 15px;
+        position: absolute;
+        top: 35%;
+        left: 46%;
+    }
+    .eng{
+        font-weight: bold;
+        font-size: 25px;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+    }
+    .shop1{
+        color: white;
+        font-size: 18px;
+        width: 130px;
+        height: 35px;
+        background-color: black;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 46%;
+        left: 40%;
+    }
+    .place{
+        width: 100%;
+        height: 250vh;
+        position: relative;
+        clear: both;
+        
+    }
+    .word1{
+        position: absolute;
+        left: 5%;
+        top: 3%;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .box5{
+        width: 100%;
+        height: 50vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+     
+        position: absolute;
+        top: 5%;
+        position: relative;
+        
+    }
+    .box6{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        margin-left: 5%;
+        margin-right: 5%; 
+        position: relative;
+        float: left;
+        clear: both;
+       
+        
+    }
+    .box7{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+        
+    }
+    .box8{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        float: left;
+        clear: both;
+    }
+    .div1{
+        font-size: 18px;
+        font-weight: bolder;
+        color: cornflowerblue;
+        position: absolute;
+        top: 74%;
+    }
+    
+    .follow{
+        /*width: 40%;
+        height: 5vh;
+        position: absolute;
+        bottom: 2%;
+        position: relative;*/
+    }
+    .aaa{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .like{
+        /* float: left; */
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .f{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        /* float: left; */
+        background-color: blue;
+        background-image: url(/facebook.png);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .y{
+        width: 25px;
+        height: 25px;
+        /* float: left; */
+        background-color: red;
+        padding-bottom: 10px;
+        margin-left: 10px;
+    }
+    .y img{
+        width: 35px;
+    }
+    .fotter{
+        padding: 2%;
+        padding-top: 5%;
+        width: 100%;
+        height: 180vh;
+        display: block;
+        flex-wrap: nowrap;
+        position: relative;
+        /*flex-direction: column;*/
+        background-color: lightgrey;
+        box-sizing: border-box;
+    }
+    .move{
+        width: 100%;
+        height: 200px;
+        margin-left: 1%;
+        font-size: 15px;
+        font-weight: inherit;
+        float: left;
+        clear: both;
+        
+    }
+    .store{
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: inherit;
+        float: left;
+        clear: both;
+        position: absolute;
+        left: 3%;
+        top: 200px;
+    }
+    .edu{
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: inherit;
+        clear: both;
+        position: absolute;
+        left: 3%;
+        top: 400px;
+    }
+    .people{
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: inherit;
+        clear: both;
+        position: absolute;
+        left: 3%;
+        top: 800px;
+    }
+    .company{
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: inherit;
+        clear: both;
+        position: absolute;
+        left: 3%;
+        top: 1000px;
+    }
+    .chi{
+        margin-left: 1%;
+        width: 100%;
+        height: 250px;
+        font-size: 15px;
+        font-weight: inherit;
+        clear: both;
+        position: absolute;
+        left: 3%;
+        top: 600px;
+    }
+}
